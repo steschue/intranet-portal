@@ -1,0 +1,268 @@
+﻿
+/*Wrapper*/
+
+html {
+    background-color: #37a3f6; /*5075c5*/
+}
+
+a{
+    text-decoration: none;
+    /*color: #000;*/
+}
+
+div {
+    font: normal normal 12pt Arial;
+}
+
+div#wrapper {
+    margin: 0px 35px 0px 35px;
+    min-width: 900px;
+    background-color: #333333;
+    box-shadow: 0 0 10px #000;
+    border:1px solid gray;
+}
+
+div#header {
+	background-color: #fff;
+     margin-right: 2px;
+     margin-left: 2px;
+	padding-top: 0.01em;
+	padding-bottom: 0.01em;
+}
+
+.Weatherwidget {
+	float: right;
+	text-align: center;
+	margin-top: -4px;
+	margin-right: 2px;
+}
+
+div#content {
+    clear: both;
+    margin-top: 100px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #4169e1;
+}
+
+strong {
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Title*/
+
+.titel {
+	font: bold normal 34pt courier; 
+	color: blue;   
+	text-align: left; 
+	margin-bottom: 8px; 
+	margin-top: 8px;
+	text-shadow: 3px 2px gray;
+	}
+.titel span {
+	color: #000080;
+}
+/*Navigationbar*/
+
+nav {
+    min-width: 900px;
+    padding-right: 2px;
+    padding-left: 2px;
+      
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+
+    /*box-shadow: 3px 3px 3px #dfdfdf;
+    -moz-box-shadow: 3px 3px 3px #dfdfdf;
+    -webkit-box-shadow: 3px 3px 3px #dfdfdf;*/
+}
+
+nav ul:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+nav ul,nav ul li{
+   /* background-color: #4169e1;*/
+}
+
+nav ul li {
+    list-style: none;
+    float:left;
+    /*border-right: 1px solid #dfdfdf;*/
+    padding-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 14px 34px 14px 34px;font-family: Arial;
+    font: normal bold 12pt Arial;
+
+    transition: background 0.3s ease-out; /* explorer 10 */
+    -webkit-transition: background 0.3s ease-out; padding: 14px 28px 14px 28px; /* chrome & safari */
+    -moz-transition: background 0.3 ease-out; /* firefox */
+    -o-transition: background 0.3 ease-out; /* opera */
+}
+
+nav ul li.cat1 a, nav ul li.cat1 > ul li a  {
+	border-bottom: 5px solid red;
+}
+
+nav ul li.cat2 a, nav ul li.cat2 > ul li a  {
+	border-bottom: 5px solid green;
+}
+
+nav ul li.cat3 a, nav ul li.cat3 > ul li a  {
+	border-bottom: 5px solid blue;
+}
+
+nav ul li.cat4 a, nav ul li.cat4 > ul li a  {
+	border-bottom: 5px solid yellow;
+}
+
+nav ul li.cat1:hover a, nav ul li.cat1:hover > ul li a  {
+    /*background-color:  #000080;*/
+    border-bottom: 5px solid #dfdfdf;
+}
+nav ul li.cat2:hover a, nav ul li.cat2:hover > ul li a  {
+    /*background-color: #000080;font-family: Arial;*/
+    border-bottom: 5px solid #dfdfdf;
+}
+nav ul li.cat3:hover a, nav ul li.cat3:hover > ul li a  {
+    /*background-color: #000080;font-family: Arial;*/
+    border-bottom: 5px solid #dfdfdf;
+}
+nav ul li.cat4:hover a, nav ul li.cat4:hover > ul li a  {
+    /*background-color: #000080;font-family: Arial;*/
+    border-bottom: 5px solid #dfdfdf;
+}
+nav ul li.cat5:hover a, nav ul li.cat5:hover > ul li a {
+    background-color: #000080;font-family: Arial;
+}
+nav ul li.cat6:hover a, nav ul li.cat6:hover > ul li a {
+    background-color: #000080;font-family: Arial;
+}
+nav ul li.cat7:hover a, nav ul li.cat7:hover > ul li a {
+    background-color: #000080;font-family: Arial;
+}
+
+nav ul li:hover > a {
+    color: #FAFAFA;
+}
+nav ul li:hover > ul {
+    visibility: visible;
+}
+
+nav ul li ul{
+    display: inline;
+    visibility: hidden;
+    position: absolute;
+    padding:0px;
+}
+nav ul li ul li{
+	float: none;
+}
+nav ul li ul li a {
+    color: #FAFAFA;
+}
+nav ul li ul li a:hover{
+	color: #333;
+	background-color: #FAFAFA !important;
+}
+
+.ContentBox {
+	    min-height: 800px;
+}
+/*Links with Background*/
+
+ul#Content {
+    list-style: none;
+    margin: 0; 
+    padding: 0em 2.5em;
+    /*-webkit-padding-start: 0em;*/
+}
+
+.lettergroup{
+	margin: right;
+	padding-top: 25px;
+     position: relative;
+ 	padding: 0.6em 0.3em 0em 0.3em;
+ 	clear: both; /*Important*/
+ 	font: normal normal 10pt Arial;
+ 	color: white;
+}
+
+ul#Content li {
+    display: inline;
+}
+
+ul#Content li a {
+    text-decoration: none; 
+    font-weight: bold;
+    color: blue; 
+    float: left;
+    font-family: Arial;
+}
+
+ul#Content li a:hover {
+    color: ; 
+
+}
+
+ul#Content li a div { 
+    outline: 1px solid;
+    box-shadow: 4px 4px 4px #dfdfdf;
+    width: 23em;
+    height: 5em;
+    /*background-image: url(...), url(...);*/  /*Only global!*/
+   /* background-size: 200px 100px;				/*Pic-Size*/
+    background-color: #fff;
+    background-repeat: no-repeat; 
+    background-position: right;
+    margin: 14px 8px 14px 8px;                                       /*Abstände der Boxen !!!*/
+
+}
+
+ul#Content li a div:hover {
+    opacity:0.9;
+    background-color: #f5f5f5;
+}
+
+ul#Content li a div {
+	 background-size: 60px;
+}
+
+ul#Content li a div ul {
+	/*list-style: none;*/
+	width: 15em;
+	padding: 0em 2.5em;
+}
+
+/*Footer*/
+
+footer {
+    position: relative;
+	/*margin-top: -150px; /* Negativer Wert der Footer-Höhe */
+	padding: 10em 0.3em 0em 0.3em;
+	clear: both; /*Important*/
+	font: normal normal 10pt Arial;
+	color: white;
+	/*border: 2px solid #000080;*/
+}
